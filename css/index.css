@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+    font-family: Cursive, sans-serif;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url("http://ak5.picdn.net/shutterstock/videos/19624045/thumb/1.jpg");
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2;
+/*     margin: 0 20px; */
+}
+
+.container {
+    width: 100%;
+}
+.container ul {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+.container li {
+    font-size: 1.3rem;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: .3rem;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-shadow: 4px 2px 1px black;
+    box-shadow: 2px 2px 5px black;
+    margin: 10px;
+/*     Here we must change the padding in media query     */
+    padding: 20px; 
+    flex: 1 1;
+    transition: all .5s ease;
+}
+
+.play {
+    transform: scale(1.2);
+}
+
+@media (max-width: 550px) {
+    h1 {
+        margin: 0 20px;
+    }
+    .container li {
+        padding: 10px;
+    }
+}
