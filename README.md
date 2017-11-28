@@ -1,8 +1,8 @@
 # Press-Hear
 
-###Welcome
+### Welcome
 
-#######This project about letters pronounciation and it is just a practice to me in JS.
+#### This project about letters pronounciation and it is just a practice to me in JS.
 
 it's a common project known as Drum Kit, but another idea jump into my head to convert it to more fun and useful
 I'm not a native english speaker so I have an approach to hear the pronounciation of the new language's letters
