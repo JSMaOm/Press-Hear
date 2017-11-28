@@ -55,7 +55,7 @@ h1 {
 /*     Here we must change the padding in media query     */
     padding: 20px; 
     flex: 1 1;
-    transition: all .5s ease;
+    transition: all .05s ease;
 }
 
 .play {
